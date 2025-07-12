@@ -1,3 +1,5 @@
+package 자바의정석;
+
 public class type {
     public static void main(String args[]){
         //숫자를 문자로 변환

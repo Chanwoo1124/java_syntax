@@ -1,3 +1,5 @@
+package 자바의정석;
+
 import java.util.Scanner;
 
 
