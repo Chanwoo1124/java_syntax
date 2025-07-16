@@ -15,7 +15,7 @@ public class 연습문제3 {
 //        System.out.println(num >0?"양수":"음수");
         //3-6
         int fahrenheit = 100;
-        float celcius = (fahrenheit-32) * 5 / 9;
+        float celcius = (float) ((fahrenheit-32) * 5.0 / 9.0);
 
         System.out.println(fahrenheit);
         System.out.println(celcius);
