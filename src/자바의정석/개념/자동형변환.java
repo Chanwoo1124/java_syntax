@@ -1,5 +1,4 @@
-package 자바의정석;
-import java.util.Scanner;
+package 자바의정석.개념;
 
 
 public class 자동형변환 {
