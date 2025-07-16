@@ -1,4 +1,4 @@
-package 자바의정석;
+package 자바의정석.개념;
 
 import java.util.Scanner;
 

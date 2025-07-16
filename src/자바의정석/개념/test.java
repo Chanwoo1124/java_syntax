@@ -1,4 +1,4 @@
-package 자바의정석;
+package 자바의정석.개념;
 public class test {
     public static void main(String[] args) {
         System.out.println("Hello World");
