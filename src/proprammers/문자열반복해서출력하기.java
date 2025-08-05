@@ -5,7 +5,6 @@ public class 문자열반복해서출력하기 {
         Scanner scanner = new Scanner(System.in);
         String s = scanner.next();
         int n = scanner.nextInt();
-        System.out.println(s.repeat(n));
 
         for (int i =0; i<n;i++){
             System.out.print(s);
