@@ -1,5 +1,4 @@
 package proprammers;
-import java.util.Scanner;
 
 class Solution2 {
     public String solution(String str1, String str2){
@@ -15,7 +14,6 @@ class Solution2 {
 
 public class 문자열섞기 {
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
         Solution2 so = new Solution2();
         String a =so.solution("aaaaa","bbbbb");
         System.out.println(a);
