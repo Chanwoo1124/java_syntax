@@ -1,5 +1,5 @@
 package proprammers;
-class Solution {
+class Solution3 {
     public int solution(int a, int b) {
         String strA = String.valueOf(a);
         String strB = String.valueOf(b);
@@ -22,7 +22,7 @@ class Solution {
 }
 public class 더크게합치기 {
     public static void main(String[] args) {
-        Solution s = new Solution();
+        Solution3 s = new Solution3();
         s.solution(9,91);
 
     }

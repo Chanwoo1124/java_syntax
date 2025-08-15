@@ -13,8 +13,8 @@ class Solution {
 
 public class 문자열겹쳐쓰기 {
     public static void main(String[] args){
-        Solution2 so = new Solution2();
-        String an =so.solution("He11oWor1d","lloWorl");
+        Solution so = new Solution();
+        String an =so.solution("He11oWor1d","lloWorl",3);
         System.out.println(an);
 
     }

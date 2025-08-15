@@ -1,5 +1,5 @@
 package proprammers;
-class Solution3 {
+class Solution4 {
     public String solution(String[] arr) {
         String answer = "";
         for (int i = 0; i<arr.length; i++){
