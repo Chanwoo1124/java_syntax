@@ -19,9 +19,9 @@ class Solution20 {
                 if (arr[s] > k && answer[i] > arr[s]){
                     answer[i] = arr[s];
                     }
-                else{
-                    answer[i] = -1;
-                }
+//                else{
+//                    answer[i] = -1;
+//                }
                 }
             }
         return answer;
