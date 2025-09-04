@@ -45,6 +45,7 @@ public class 성적평균구하기{
     m3.성적평균구하기();
     m3.성적표출력();
     total = m3.e;
+    System.out.println(total);
 
     }
 }
