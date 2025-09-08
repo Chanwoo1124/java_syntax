@@ -1,5 +1,7 @@
 package 학교수업;
 
+import java.util.ArrayList;
+
 class  MyPerson{
     int age;
     String name;
@@ -36,16 +38,28 @@ public class 성적평균구하기{
     MyPerson m1 = new MyPerson("김길동",20,90,80,70);
     m1.성적평균구하기();
     m1.성적표출력();
-    int total = m1.e;
+
     MyPerson m2 = new MyPerson("박길동",50,90,80,70);
     m2.성적평균구하기();
     m2.성적표출력();
-    total = m2.e;
+
     MyPerson m3 = new MyPerson("홍0길동",70,90,80,70);
     m3.성적평균구하기();
     m3.성적표출력();
-    total = m3.e;
-    System.out.println(total);
+
+    //객체를 여러개 저장할 수 있는 공간
+    ArrayList mTotal = new ArrayList();
+    mTotal.add(m1);    //mTotal 에 m1객체 저장
+    mTotal.add(m2);
+    mTotal.add(m3);
+
+    for (int i = 0; i < mTotal.toArray().length; i++){
+        MyPerson t = (MyPerson) mTotal.get(i); //ArrayList 에서 값 가져올때는 순서를 기준으로 가져옴
+        int result = t.score1 + t.score2 + t.score3;
+    }
+
+
+
 
     }
 }
