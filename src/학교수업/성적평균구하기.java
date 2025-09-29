@@ -10,7 +10,7 @@ class  MyPerson{
     int score3;
     int e = 0; //평균값을 저장하기 위한변수
 
-    public MyPerson(String n,int a, int s1,int s2,int s3){
+    public MyPerson(String n, int a, int s1, int s2, int s3){
         name =n;
         age = a;
         score1 = s1;
@@ -34,7 +34,7 @@ class  MyPerson{
 
 
 public class 성적평균구하기{
-    public static void main(String[] args) {
+    public static void main(StringEx[] args) {
     MyPerson m1 = new MyPerson("김길동",20,90,80,70);
     m1.성적평균구하기();
     m1.성적표출력();

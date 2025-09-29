@@ -11,7 +11,7 @@ class MyA{
 
 
 public class 삼대생략요소 {
-    public static void main(String[] args) {
+    public static void main(StringEx[] args) {
 
     }
 }

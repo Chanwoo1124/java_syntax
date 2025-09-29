@@ -7,7 +7,6 @@ package 학교수업;
             //public :누구나 접근해서 사용가능한 메소드
             //private: 메소드가 정의된 클래스 안에서만 사용 가능
             //
-import java.sql.SQLOutput;
 
 class  MyCal{
 
@@ -33,7 +32,7 @@ class 라면{
 
 
 public class methodEx {
-    public static void main(String[] args) {
+    public static void main(StringEx[] args) {
         라면 라면1 = new 라면();
         라면1.라면끓어줘(1000);
         MyCal a = new MyCal();

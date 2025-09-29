@@ -1,3 +1,4 @@
+/*
 package 학교수업;
 
 class MyCon {
@@ -5,7 +6,7 @@ class MyCon {
     //생성자를 사용하는 가장 큰 목적? 생성자는 도대체 어떤 용도로 사용하나
     private int age;
 
-    public String getName() {
+    public StringEx getName() {
         return name;
     }
 
@@ -13,7 +14,7 @@ class MyCon {
         this.name = name;
     }
 
-    private String name;
+    private StringEx name;
     private int h;
 
     public MyCon(){
@@ -21,11 +22,11 @@ class MyCon {
     }
 
 
-    public MyCon(int a,String n) { // default 생성자는 아니다.
+    public MyCon(int a, String n) { // default 생성자는 아니다.
         this(n,a);  // 자기 클래스를 가르킴 즉 생성자 호출
 
     }
-    public MyCon(String n, int a){
+    public MyCon(StringEx n, int a){
         age = a;
         name = n;
     }
@@ -37,4 +38,4 @@ public class ConstructorEx {
         MyCon m1 = new MyCon(20,"d"); //생성자 호출 -> 객체 생성
         MyCon m2 = new MyCon(22,"박길동");
     }
-}
+}*/

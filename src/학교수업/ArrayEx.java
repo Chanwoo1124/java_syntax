@@ -1,7 +1,7 @@
 package 학교수업;
 
 public class ArrayEx {
-    public static void main(String[] args) {
+    public static void main(StringEx[] args) {
         //자바에서 배열 사용 문법
         //(1)
         int[] x = {10,20,30};

@@ -9,7 +9,7 @@ public class forEx {
     }
 
 
-    public static void main(String[] args) {
+    public static void main(StringEx[] args) {
         //자바에서 반복문
         //기본문법
         //

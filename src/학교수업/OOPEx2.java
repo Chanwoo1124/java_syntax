@@ -13,7 +13,7 @@ class BBB extends AAA{
 
 
 public class OOPEx2 {
-    public static void main(String[] args) {
+    public static void main(StringEx[] args) {
         BBB B =new BBB();
 
     }

@@ -1,4 +1,4 @@
-//버튼 클릭 이벤트 처리
+package 학교수업;//버튼 클릭 이벤트 처리
 
 import javax.swing.*;
 import javax.swing.JButton;
@@ -45,7 +45,7 @@ class MyFrame extends JFrame{
 }
 
 public class EventHandlingEx {
-    public static void main(String[] args) {
+    public static void main(StringEx[] args) {
         new MyFrame();
     }
 }

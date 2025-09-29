@@ -30,7 +30,7 @@ class Pig{
 
 
 public class AbstractEx {
-    public static void main(String[] args) {
+    public static void main(StringEx[] args) {
         Cat c = new Cat();
         c.cry();
         DOg g = new DOg();

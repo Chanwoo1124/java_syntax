@@ -1,7 +1,7 @@
 package 학교수업;
 
 public class HelloJava {
-    public static void main(String[] args) {
+    public static void main(StringEx[] args) {
         System.out.println("Hello java");
     }
 }

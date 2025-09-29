@@ -14,7 +14,7 @@ class MyClass{
 }
 
 public class OOPEx {
-    public static void main(String[] args) {
+    public static void main(StringEx[] args) {
     MyClass my = new MyClass();
     my.printX();
     }
