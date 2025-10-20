@@ -1,44 +1,43 @@
 package proprammers;
 class Solution20 {
     public int[] solution(int[] arr, int[][] queries) {
+        //반환 할 배열 생성
+
+        //반복문 해서 값 꺼내기
         int[] answer = new int[queries.length];
-        int max = 0;
-        for (int i = 0; i < arr.length; i++){
-            if (max < arr[i]){
-                max = arr[i];
-            }
-        }
-        for (int q = 0; q < queries.length; q++){
-            answer[q] = max;
-        }
-        for (int i = 0; i < queries.length; i++){
+
+        for (int i = 0; i < queries.length; i++) {
             int s = queries[i][0];
             int e = queries[i][1];
             int k = queries[i][2];
-            for (; s < e+1; s++){
-                if (arr[s] > k && answer[i] > arr[s]){
-                    answer[i] = arr[s];
-                    }
-//                else{
-//                    answer[i] = -1;
-//                }
+            int min = 1000000;
+            //값 찾아내기
+            for(int j = s; j<=e; j++){
+
+                int r = arr[j];
+                if (arr[j] > k && arr[j] < min ){
+                    min = r;
+                    answer[i] = min;
+                }else{
+                    answer[i] = -1;
+                }
+
+
                 }
             }
         return answer;
     }
 }
-public class 수열과구간쿼리2{
+
+class 수열과구칸쿼리2{
     public static void main(String[] args) {
-    Solution20 so = new Solution20();
-    int[] arr = {0,1,2,4,3};
-    int[][] queries = {{0,4,2},{0,3,2},{0,2,2}};
-    int[] a =so.solution(arr,queries);
-    for (int i = 0; i < a.length; i++){
-        System.out.println(a[i]);
-    }
-
-
-
+        int[] arr = {0,1,2,4,3};
+        int[][] queries = {{0,4,2},{0,3,2},{0,2,2}};
+        Solution20 s = new Solution20();
+        int[] result  =s.solution(arr,queries);
+        for (int i =0; i<result.length; i++){
+            System.out.println(result[i]);
+        }
 
     }
 }
