@@ -24,7 +24,7 @@ public class Plant {
         if (waterAmount > 2){
             return "Overwatered!";
         } else if (waterAmount >= 1) {
-            return "Perfectly watered!";ㅎ
+            return "Perfectly watered!";
         }else{
             return "Needs more water!";
         }
